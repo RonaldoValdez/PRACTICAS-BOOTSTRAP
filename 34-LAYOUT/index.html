@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>34-LAYOUT</title>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-fm">
+                        <span class="sr-only">DESPLEGAR / OCULTAR MENU</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">MARK II</a>
+                </div>
+                <!--INICIA MENU-->
+
+                <div class="collapse navbar-collapse" id="navegacion-fm">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">INICIO</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                CATEGORIAS <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">CATEGORIA #1</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">CATEGORIA #2</a></li>
+                                <li><a href="#">CATEGORIA #3</a></li>
+                                <li><a href="#">CATEGORIA #4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+                    </ul>
+
+                    <form action="" class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="buscar">
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--Aqui va el jumbotron-->
+    <section class="jumbotron">
+        <div class="container"></div>
+        <h1 class="titulo-blog">MARK II</h1>
+        <p>BLACK IN BLACK AC/DC</p>
+    </section>
+
+    <section class="main container">
+        <div class="row">
+            <section class="posts col-md-9" >
+                <div class="miga-de-pan">
+                    <ol class="breadcrumb">
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">CATEGORIA</a></li>
+                        <li class="active">DISEÑO WEB</li>
+                    </ol>
+                </div>
+                <article class="post clearfix">
+                    <a href="#" class="thumb pull-left">
+                        <img class="img-thumbnail" src="img/logo.png" alt="">
+                    </a>
+                    <h2 class="post-title">
+                        <a href="#">INICIA PROYECTOS HTM5 MAS RAPIDO</a>
+                    </h2>
+                    <p><span class="post-fecha">07 de Octubre de 2019</span> por <span class="post-autor"><a href="#">RONALDO S. VALDEZ ALEJANDRO</a></span></p>
+                    <p class="post-contenido" text-justify>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In deleniti nostrum voluptates itaque eum reprehenderit saepe porro culpa est, asperiores libero neque dignissimos dolores minima quae magnam? Laborum, cupiditate voluptas.l
+                    </p>
+
+                    <div class="contenedor-botones">
+                        <a href="#" class="btn btn-primary">LEER MAS</a>
+                        <a href="#" class="btn btn-success">COMENTARIOS</a> <span class="badge">20</span>
+                    </div>
+                </article>
+
+                <article class="post clearfix">
+                    <a href="#" class="thumb pull-left">
+                        <img class="img-thumbnail" src="img/users.png" alt="">
+                    </a>
+                    <h2 class="post-title">
+                        <a href="#">INICIA PROYECTOS HTM5 MAS RAPIDO</a>
+                    </h2>
+                    <p><span class="post-fecha">07 de Octubre de 2019</span> por <span class="post-autor"><a href="#">RONALDO S. VALDEZ ALEJANDRO</a></span></p>
+                    <p class="post-contenido" text-justify>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In deleniti nostrum voluptates itaque eum reprehenderit saepe porro culpa est, asperiores libero neque dignissimos dolores minima quae magnam? Laborum, cupiditate voluptas.l
+                    </p>
+
+                    <div class="contenedor-botones">
+                        <a href="#" class="btn btn-primary">LEER MAS</a>
+                        <a href="#" class="btn btn-success">COMENTARIOS</a> <span class="badge">20</span>
+                    </div>
+                </article>
+
+                <article class="post clearfix">
+                    <a href="#" class="thumb pull-left">
+                        <img class="img-thumbnail" src="img/nombre.png" alt="">
+                    </a>
+                    <h2 class="post-title">
+                        <a href="#">INICIA PROYECTOS HTM5 MAS RAPIDO</a>
+                    </h2>
+                    <p><span class="post-fecha">07 de Octubre de 2019</span> por <span class="post-autor"><a href="#">RONALDO S. VALDEZ ALEJANDRO</a></span></p>
+                    <p class="post-contenido" text-justify>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In deleniti nostrum voluptates itaque eum reprehenderit saepe porro culpa est, asperiores libero neque dignissimos dolores minima quae magnam? Laborum, cupiditate voluptas.l
+                    </p>
+
+                    <div class="contenedor-botones">
+                        <a href="#" class="btn btn-primary">LEER MAS</a>
+                        <a href="#" class="btn btn-success">COMENTARIOS</a> <span class="badge">20</span>
+                    </div>
+                </article>
+
+                <nav>
+                    <div class="center-block">
+                        <ul class="pagination">
+                            <li class="disabled"><a href="#">&laquo;<span class="sr-only">ANTERIOR</span></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&raquo; <span class="sr-only">SIGUIENTE</span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </section>
+
+            <aside class="col-md-3 hidden-xs hidden-sm">
+                    <h4>categorias</h4>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">Diseño web</a>
+                        <a href="#" class="list-group-item">CSS</a>
+                        <a href="#" class="list-group-item">Cursos</a>
+                        <a href="#" class="list-group-item">Desarrollo web</a>
+                        <a href="#" class="list-group-item">Elementos web</a>
+                        <a href="#" class="list-group-item">Jquery</a>
+                        <a href="#" class="list-group-item">Recursos y herramientas</a>
+                    </div>
+                
+                    <h4>Articulos Recientes</h4>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Inicia proyectos con HTML5mas rápido con INICIO</h4>
+                        <p class="list-group-item-text">Aprende a como iniciar a desarrollar en HTML</p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                            <h4 class="list-group-item-heading">Inicia proyectos con HTML5mas rápido con INICIO</h4>
+                            <p class="list-group-item-text">Aprende a como iniciar a desarrollar en HTML</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                                <h4 class="list-group-item-heading">Inicia proyectos con HTML5mas rápido con INICIO</h4>
+                                <p class="list-group-item-text">Aprende a como iniciar a desarrollar en HTML</p>
+                            </a>
+                        </aside>
+
+        </div>
+    </section>
+        
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>RONALDO VALDEZ</p>
+                </div>
+                <div class="col-xs-6">
+                    <ul class="list-inline text-right">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
